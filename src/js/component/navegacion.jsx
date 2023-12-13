@@ -4,8 +4,8 @@ function Navegacion() {
   return (
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand nav-title" style={{ marginLeft: "14%" }} href="#">Start Bootstrap</a>
+      <div class="container-fluid col-sm-12 col-lg-9">
+        <a class="navbar-brand nav-title" href="#">Start Bootstrap</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -17,8 +17,8 @@ function Navegacion() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d" style={{ marginLeft: "50%" }} id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse"  id="navbarNav">
+          <ul class="navbar-nav ">
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
             </li>

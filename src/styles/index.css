@@ -1,12 +1,20 @@
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+/* Set the background color of body to tan */
+.letraGigante {
+    font-size: 5rem;
+  }
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    .letraGigante {
+        font-size: 4rem;
+      
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .letraGigante {
+        font-size: 3rem;
+      }
+  }

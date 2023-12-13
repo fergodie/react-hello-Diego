@@ -14,11 +14,14 @@ const Home = () => {
 			<Navegacion />
 			<div className="d-flex flex-column align-items-center gap-4">
 				<Titulo />
-				<div className="d-flex gap-5">
-					<Card />
-					<Card />
-					<Card />
-					<Card />
+				<div className="container-fluid d-flex flex-column align-items-center justify-content-center col-sm-12 col-lg-9">
+					<div className="row">
+						<div className="col-sm-12 col-lg-3 mb-3"><Card /></div>
+						<div className="col-sm-12 col-lg-3 mb-3"><Card /></div>
+						<div className="col-sm-12 col-lg-3 mb-3"><Card /></div>
+						<div className="col-sm-12 col-lg-3 mb-3"><Card /></div>
+
+					</div>
 
 				</div>
 
